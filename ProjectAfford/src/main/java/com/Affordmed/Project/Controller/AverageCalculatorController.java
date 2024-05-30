@@ -19,7 +19,7 @@ import java.util.Set;
 public class AverageCalculatorController {
 
     private static final int WINDOW_SIZE = 10;
-    private static final String TEST_SERVER_URL = "http://example.com/api/numbers/{type}";
+    private static final String TEST_SERVER_URL = "http://Affordmed.com/api/numbers/{type}";
     private final RestTemplate restTemplate;
     private final Set<Integer> numberWindow = new LinkedHashSet<>();
 
